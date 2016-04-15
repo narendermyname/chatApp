@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : client.dtd
+    Created on : 2011/3/11
+    Author     : 
+    Description:
+        Purpose of the document follows.
+-->
+
+
+<!ELEMENT client (config,database)>
+<!ELEMENT config (host,port)>
+<!ELEMENT host (#PCDATA)>
+<!ELEMENT port (#PCDATA)>
+<!ELEMENT database (db-class-name,url,user-name,password)>
+<!ELEMENT db-class-name (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT user-name (#PCDATA)>
+<!ELEMENT password (#PCDATA)>

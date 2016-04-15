@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE client SYSTEM "serverConfig.dtd">
+<!--
+    Document   : serverConfig.xml
+    Created on : 2011/3/11
+    Author     : Narender Singh
+    Description: MCA student Contact me narendermyname@gmail.com
+    Purpose of the document follows.
+-->
+
+<client>
+	<config>
+		<host>localhost</host>
+		<port>2029</port>
+	</config>
+</client>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE client SYSTEM "client.dtd">
+<!--
+    Document   : client.xml
+    Created on : 2011/3/11
+    Author     : Narender Singh
+    Description: MCA student Contact me narendermyname@gmail.com
+    Purpose of the document follows.
+-->
+
+<client>
+	<config>
+		<host>127.0.0.1</host>
+		<port>2029</port>
+	</config>
+	<database>
+		<db-class-name>com.mysql.jdbc.Driver</db-class-name>
+		<url>jdbc:mysql://localhost:3306/nstanwar</url>
+		<user-name>root</user-name>
+		<password>root</password>
+	</database>
+</client>
